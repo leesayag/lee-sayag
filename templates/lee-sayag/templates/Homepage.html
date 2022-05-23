@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="tab" id="home"><a href="./Homepage.html">Home</a></div>
+        <div class="tab" id="contact"><a href="./Contactus.html">Contact</a></div>
+    </div>
+    <div class="container">
+        <div id="currentTab" style="display:none">Home</div>
+        <h1 onclick="easterEgg()">Do you think that smile is pretty?</h1>
+        <img src="C:\Users\לי סייג\Desktop\web\lee-sayag\static\smile.jpg" alt="cute boy" style=" padding: 10px; border: 2px solid; border-color:purple " />
+       
+        <h2>To sign up for the national smiles competition <a href="file:///C:/Users/%D7%9C%D7%99%20%D7%A1%D7%99%D7%99%D7%92/Desktop/web/lee-sayag/templates/Contactus.html">click here</a> </h2>
+    </div>
+    <script>
+         let html = window.document.getElementById("currentTab").innerHTML;
+         changeTab('home')
+    </script>
+</body>
+</html>
